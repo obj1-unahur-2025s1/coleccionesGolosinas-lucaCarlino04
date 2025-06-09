@@ -1,0 +1,8 @@
+import mariano.*
+import golosinas.*
+
+test "test de mariano" {
+  mariano.comprar(new Alfajor())
+  mariano.comprar(new Chocolatin(peso=10))
+  
+}
